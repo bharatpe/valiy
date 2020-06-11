@@ -23,15 +23,6 @@ A mini regex library for most commonly used patterns
  Add it to package.json as a dependency
 
 ```javascript
-General
-"validator": "git+ssh://git@github.com/bharatpe/validator.git"
-
-With Authtoken
-"validator": "git+https://[AUTH_TOKEN]:x-oauth-basic@github.com/bharatpe/validator.git"
-```
-or 
-
-```javascript
 yarn add valiy
 
 or
@@ -65,7 +56,7 @@ npm install valiy --save-dev
 
 ## Usage
 ```javascript
-import { Validator, Regex } from 'validator';
+import { Validator, Regex } from 'valiy';
 
 // PAN Validation
 Validator.validatePan('BUFPP9037C') // True
