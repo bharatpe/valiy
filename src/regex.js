@@ -65,6 +65,15 @@ const PHONE_NUMBER_REGEX = /^(\+91[-\s]?)?[0]?(91)?[789]\d{9}$/;
 
 
 /**
+ * @name PINCODE_REGEX
+ * @example 770018
+ * @description It should be 6 digit number
+ *  - First digit cannot be 0
+ */
+const PINCODE_REGEX = /^[1-9][0-9]{5}$/;
+
+
+/**
  * @name ONLY_STRING_REGEX
  * @example Bharatpe
  * @description All string regex
@@ -138,6 +147,7 @@ export default {
   PASSPORT_REGEX,
   VOTER_ID_REGEX,
   PHONE_NUMBER_REGEX,
+  PINCODE_REGEX,
   ONLY_NUMBERS_REGEX,
   ONLY_STRING_REGEX,
   ALPHANUMERIC_REGEX,

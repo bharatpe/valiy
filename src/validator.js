@@ -28,6 +28,10 @@ const validatePhone = value => {
   return validate(Regex.PHONE_NUMBER_REGEX, value);
 };
 
+const validatePincode = value => {
+  return validate(Regex.PINCODE_REGEX, value);
+}
+
 const validateOnlyNumber = value => {
   return validate(Regex.ONLY_NUMBERS_REGEX, value);
 };
