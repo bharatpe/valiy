@@ -65,7 +65,7 @@ yarn add git+https://[AUTH_TOKEN]:x-oauth-basic@github.com/bharatpe/validator.gi
 
 ## Usage
 ```javascript
-import { Validator } from 'validator';
+import { Validator, Regex } from 'validator';
 
 // PAN Validation
 Validator.validatePan('BUFPP9037C') // True
@@ -82,6 +82,14 @@ Validator.validateFullname('0345_KRISH') // False
 
 // Validate GST
 Validator.validateGST('07CQZCD1111I4Z7') // True
+
+
+// Can get Regex directly
+Regex.PAN_REGEX;  // /[A-Z]{5}[0-9]{4}[A-Z]{1}$/
+
+
+// Custom validation
+Validator.validate(SOME_REGEX, 'VALUE1234'); // True or False
 
 ```
 
