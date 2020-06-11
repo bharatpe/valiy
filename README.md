@@ -1,4 +1,4 @@
-# Validator
+# Valiy [![NPM version](https://img.shields.io/npm/v/valiy.svg)](https://www.npmjs.com/package/valiy)
 A mini regex library for most commonly used patterns
 
 
@@ -32,11 +32,11 @@ With Authtoken
 or 
 
 ```javascript
-General
-yarn add git+ssh://git@github.com/bharatpe/validator.git
+yarn add valiy
 
-With Authtoken
-yarn add git+https://[AUTH_TOKEN]:x-oauth-basic@github.com/bharatpe/validator.git
+or
+
+npm install valiy --save-dev
 ```
 
 --------------------------------------------------------------------------------
