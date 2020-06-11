@@ -1,5 +1,5 @@
-# Valiy [![NPM version](https://img.shields.io/npm/v/valiy.svg)](https://www.npmjs.com/package/valiy)
-[![Downloads](http://img.shields.io/npm/dm/valiy.svg)](https://npmjs.org/package/valiy)
+# Valiy [![NPM version](https://img.shields.io/npm/v/valiy.svg)](https://www.npmjs.com/package/valiy) [![Downloads](http://img.shields.io/npm/dm/valiy.svg)](https://npmjs.org/package/valiy)
+
 A mini regex library for most commonly used patterns
 
 ![Valiy](/assets/valiy.png)
