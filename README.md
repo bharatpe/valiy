@@ -11,6 +11,7 @@ A mini regex library for most commonly used patterns
  - Passport
  - Voter ID
  - Phone number,
+ - Pincode,
  - Pure numbers,
  - Pure string,
  - Alphanumeric,
@@ -43,6 +44,7 @@ npm i valiy --save-dev
   validatePassport                |      value       |  Passport validation - validatePassport(value) returns boolean
   validateVoterId                 |      value       |  VoterID validation - validateVoterId(value) returns boolean
   validatePhone                   |      value       |  Phone number validation - validatePhone(value) returns boolean
+  validatePincode                 |      value       |  Pincode validation - validatePincode(value) returns boolean
   validateOnlyString              |      value       |  String validation - validateOnlyString(value) returns boolean
   validateOnlyNumber              |      value       |  Number validation - validateOnlyNumber(value) returns boolean
   validateAlphanumeric            |      value       |  Alphanumeric validation - validateAlphanumeric(value) returns boolean
@@ -157,6 +159,16 @@ Validator.validate(SOME_REGEX, 'VALUE1234'); // True or False
  * @name PHONE_NUMBER_REGEX
  * @example 8880344456 | +918880344456 | +91 8880344456 | +91-8880344456 | 08880344456 | 918880344456
  * @description Mobile number validation with all cases +91,0,Without prefix.
+ */
+```
+
+#### Pincode
+```javascript
+/**
+ * @name PINCODE_REGEX
+ * @example 770018
+ * @description It should be 6 digit number
+ *  - First digit cannot be 0
  */
 ```
 

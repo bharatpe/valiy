@@ -28,6 +28,10 @@ const validatePhone = value => {
   return validate(Regex.PHONE_NUMBER_REGEX, value);
 };
 
+const validatePincode = value => {
+  return validate(Regex.PINCODE_REGEX, value);
+}
+
 const validateOnlyNumber = value => {
   return validate(Regex.ONLY_NUMBERS_REGEX, value);
 };
@@ -43,7 +47,6 @@ const validateAlphanumeric = value => {
 const validateAlphanumericWithSpace = value => {
   return validate(Regex.ALPHANUMERIC_WITH_SPACE_REGEX, value);
 };
-
 
 const validateUsername = value => {
   return validate(Regex.USERNAME_REGEX, value);
@@ -69,6 +72,7 @@ export default {
   validatePassport,
   validateVoterId,
   validatePhone,
+  validatePincode,
   validateOnlyString,
   validateOnlyNumber,
   validateAlphanumeric,
