@@ -1,8 +1,7 @@
-import ValidatorJs from './validator';
-import Constants from './constants';
-
-export default ValidatorJs;
+import Validator from './validator';
+import Regex from './regex';
 
 export {
-  Constants
+  Validator,
+  Regex
 };

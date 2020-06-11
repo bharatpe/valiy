@@ -1,7 +1,7 @@
 {
-  "name": "validator-js",
+  "name": "validator",
   "version": "1.0.0",
-  "description": "ValidatorJs - contains all the REGEX's",
+  "description": "Validator - A mini regex library for most commonly used patterns",
   "main": "dist/lib.js",
   "module": "dist/lib.js",
   "scripts": {
@@ -26,6 +26,9 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
-  "author": "pavan.patruni@bharatpe.com",
-  "license": "ISC"
+  "author": "WebChapter | Bharatpe",
+  "license": "ISC",
+  "dependencies": {
+    "terser-webpack-plugin": "^3.0.3"
+  }
 }
