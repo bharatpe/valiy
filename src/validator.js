@@ -64,6 +64,10 @@ const validateWebUrl = value => {
   return validate(Regex.WEB_URL_REGEX, value);
 };
 
+const validateVpa = value => {
+  return validate(Regex.VPA_REGEX, value);
+};
+
 export default {
   validate,
   validatePan,
@@ -80,5 +84,6 @@ export default {
   validateFullname,
   validateUsername,
   validateEmail,
-  validateWebUrl
+  validateWebUrl,
+  validateVpa
 };

@@ -140,6 +140,15 @@ const EMAIL_REGEX = /^([a-zA-Z0-9][a-zA-Z0-9_.]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*
 const WEB_URL_REGEX = /(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
 
 
+/**
+ * @name VPA_REGEX
+ * @example rishi21@axis | shrnik_21@axis
+ * @description
+ */
+
+const VPA_REGEX = /[a-zA-Z0-9_]{3,}@[a-zA-Z]{3,}/
+
+
 export default {
   PAN_REGEX,
   AADHAAR_REGEX,
@@ -155,5 +164,6 @@ export default {
   USERNAME_REGEX,
   FULL_NAME_REGEX,
   EMAIL_REGEX,
-  WEB_URL_REGEX
+  WEB_URL_REGEX,
+  VPA_REGEX
 };
