@@ -1,6 +1,6 @@
 {
   "name": "valiy",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Validator - A mini regex library for most commonly used patterns",
   "main": "dist/lib.js",
   "module": "dist/lib.js",
