@@ -38,6 +38,9 @@ declare namespace Valiy {
     EMAIL_REGEX: RegExp;
     WEB_URL_REGEX: RegExp;
   }
+
+  export let Validator: ValidatorInterface;
+  export let Regex: RegexInterface;
 }
 
 export = Valiy;
