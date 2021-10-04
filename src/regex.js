@@ -59,9 +59,9 @@ const VOTER_ID_REGEX = /^([a-zA-Z]){3}([0-9]){7}?$/;
 /**
  * @name PHONE_NUMBER_REGEX
  * @example 8880344456 | +918880344456 | +91 8880344456 | +91-8880344456 | 08880344456 | 918880344456
- * @description Mobile number validation with all cases +91,0,Without prefix.
+ * @description Mobile number validation with all cases +91,0,Without prefix. mobile number should start with 6,7,8,9.
  */
-const PHONE_NUMBER_REGEX = /^(\+91[-\s]?)?[0]?(91)?[789]\d{9}$/;
+const PHONE_NUMBER_REGEX = /^(\+91[-\s]?)?[0]?(91)?[6789]\d{9}$/;
 
 
 /**
