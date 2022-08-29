@@ -78,7 +78,7 @@
   },
   "peerDependencies": {
     "babel-loader": "^8.1.0",
-    "react": "^17.0.1"
+    "react": "^18.0.0"
   },
   "prettier": {},
   "eslintConfig": {
