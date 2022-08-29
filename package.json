@@ -1,6 +1,6 @@
 {
   "name": "valiy",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "Validator - A mini regex library for most commonly used patterns",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,7 +24,10 @@
     "fix": "prettier-eslint --write $PWD/'src/**/*.{ts,tsx}'",
     "lint": "eslint $PWD/'src/**/*.{ts,tsx}' --config .eslintrc",
     "commit": "git-cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "release:patch": "npm run release -- --release-as patch",
+    "release:minor": "npm run release -- --release-as minor",
+    "release:major": "npm run release -- --release-as major"
   },
   "repository": {
     "type": "git",
