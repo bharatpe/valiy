@@ -3,14 +3,14 @@
  * @example BUFPP9037C
  * @description
  *    - First 5 alphabets
- *    - followed by 4 numberals
+ *    - followed by 4 numerals
  *    - followed by one alphabets
  */
 export declare const PAN_REGEX: RegExp;
 /**
  * @name AADHAAR_REGEX
  * @example 5858 5119 3566
- * @description: 12 Digits with space after every 4 digits
+ * @description: 12 Digits
  */
 export declare const AADHAAR_REGEX: RegExp;
 /**
@@ -60,17 +60,17 @@ export declare const PHONE_NUMBER_REGEX: RegExp;
  */
 export declare const PINCODE_REGEX: RegExp;
 /**
- * @name ONLY_STRING_REGEX
- * @example Bharatpe
- * @description All string regex
- */
-export declare const ONLY_STRING_REGEX: RegExp;
-/**
  * @name ONLY_NUMBERS_REGEX
  * @example 1234
  * @description All numbers regex
  */
 export declare const ONLY_NUMBERS_REGEX: RegExp;
+/**
+ * @name ONLY_STRING_REGEX
+ * @example Bharatpe
+ * @description All string regex
+ */
+export declare const ONLY_STRING_REGEX: RegExp;
 /**
  * @name ALPHANUMERIC_REGEX
  * @example abcDeF124
