@@ -10,7 +10,7 @@ export const PAN_REGEX = /[A-Z]{5}[0-9]{4}[A-Z]{1}$/;
 
 /**
  * @name AADHAAR_REGEX
- * @example 5858 5119 3566
+ * @example 585851193566
  * @description: 12 Digits
  */
 export const AADHAAR_REGEX = /^\d{4}\d{4}\d{4}?$/;
