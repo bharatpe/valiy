@@ -199,7 +199,7 @@ declare namespace validator_d {
 declare const PAN_REGEX: RegExp;
 /**
  * @name AADHAAR_REGEX
- * @example 5858 5119 3566
+ * @example 585851193566
  * @description: 12 Digits
  */
 declare const AADHAAR_REGEX: RegExp;

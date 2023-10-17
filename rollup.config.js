@@ -6,6 +6,7 @@ import { terser } from 'rollup-plugin-terser';
 import typescript from 'rollup-plugin-typescript2';
 import visualizer from 'rollup-plugin-visualizer';
 import dts from 'rollup-plugin-dts';
+import copy from 'rollup-plugin-copy';
 
 const packageJson = require('./package.json');
 
@@ -54,7 +55,10 @@ const plugins = [
     modulesOnly: true,
   }),
   visualizer(),
-  terser()
+  terser(),
+  copy({
+    targets: [{ src: ['package.json', 'README.md'], dest: 'dist/' }],
+  }),
 ];
 
 export default [
@@ -63,7 +67,7 @@ export default [
     input: 'src/index.ts',
     output: {
       esModule: false,
-      file: packageJson.unpkg,
+      file: `dist/${packageJson.unpkg}`,
       format: 'umd',
       name: packageJson.name,
       exports: 'named',
@@ -76,9 +80,9 @@ export default [
     input: 'src/index.ts',
     output: [
       { 
-        file: packageJson.module, format: 'esm', name: packageJson.name, exports: 'named', sourcemap: true },
+        file: `dist/${packageJson.module}`, format: 'esm', name: packageJson.name, exports: 'named', sourcemap: true },
       {
-        file: packageJson.main,
+        file: `dist/${packageJson.main}`,
         format: 'cjs',
         name: packageJson.name,
         exports: 'named',
