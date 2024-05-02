@@ -1,6 +1,6 @@
 {
   "name": "@bp/valiy",
-  "version": "3.1.0",
+  "version": "3.0.0",
   "description": "Validator - A mini regex library for most commonly used patterns",
   "main": "index.js",
   "types": "index.d.ts",
@@ -10,7 +10,7 @@
   "umd:main": "index.umd.js",
   "cdn": "index.umd.js",
   "publishConfig": {
-    "registry": "https://npm.bharatpe.io"
+    "registry": "https://npm.bharatpe.in"
   },
   "scripts": {
     "build": "rollup -c",
