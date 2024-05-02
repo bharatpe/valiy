@@ -25,11 +25,11 @@ A mini regex library for most commonly used patterns
  # Getting Started (Installation)
 
 ```javascript
-yarn add @bp/valiy
+yarn add valiy
 
 or
 
-npm i @bp/valiy
+npm i valiy
 ```
 
 --------------------------------------------------------------------------------
@@ -59,7 +59,7 @@ npm i @bp/valiy
 
 ## Usage
 ```javascript
-import { Validator, Regex } from '@bp/valiy';
+import { Validator, Regex } from 'valiy';
 
 // PAN Validation
 Validator.validatePan('BUFPP9037C') // True
@@ -87,7 +87,7 @@ Validator.validate(SOME_REGEX, 'VALUE1234'); // True or False
 
 
 // Can import individual function or regex
-import { validate, PAN_REGEX, validateFullname } from '@bp/valiy';
+import { validate, PAN_REGEX, validateFullname } from 'valiy';
 
 // Full name validation
 Validator.validateFullname('ABDUL KALAM AZAAD') // True
