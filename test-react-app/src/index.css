@@ -1,13 +1,35 @@
+@font-face {
+  font-family: 'Light';
+  src: url('https://d30gqtvesfc1d5.cloudfront.net/fonts/v3/poppins/Light');
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url('https://d30gqtvesfc1d5.cloudfront.net/fonts/v3/poppins/Regular');
+}
+
+@font-face {
+  font-family: 'Medium';
+  src: url('https://d30gqtvesfc1d5.cloudfront.net/fonts/v3/poppins/Medium');
+}
+
+@font-face {
+  font-family: 'SemiBold';
+  src: url('https://d30gqtvesfc1d5.cloudfront.net/fonts/v3/poppins/SemiBold');
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url('https://d30gqtvesfc1d5.cloudfront.net/fonts/v3/poppins/Bold');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Regular;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Light;
 }
